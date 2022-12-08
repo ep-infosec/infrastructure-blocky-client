@@ -1,0 +1,6 @@
+requests>=2.23.0
+netaddr>=0.7.19
+websockets>=8.1
+PyYAML>=5.3.1
+asfpy>=0.28
+aiohttp

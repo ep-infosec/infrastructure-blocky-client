@@ -1,0 +1,11 @@
+[Unit]
+Description=Blocky4 Client App
+ 
+[Service]
+Type=simple
+WorkingDirectory=/opt/blocky-client
+ExecStart=/usr/local/bin/pipenv run python3 blocky4-client.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

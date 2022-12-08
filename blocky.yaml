@@ -1,0 +1,11 @@
+# Blocky/4 configuration #
+api_host:         https://blocky.apache.org/
+pubsub_host:      https://pubsub.apache.org:2070/
+update_interval:  300
+chains: 
+  - INPUT
+  - fail2ban-default
+  - fail2ban-aardvark
+  - fail2ban-ssh
+  - fail2ban-httpd-svn
+  - fail2ban-ssh-ddos
